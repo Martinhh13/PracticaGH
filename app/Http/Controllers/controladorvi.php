@@ -10,10 +10,7 @@ class controladorvi extends Controller
 {
     public function procesarUsuario(validarusuario $req){
 
-        return redirect('formulario')->with('Se inicio sesion');
-        //return $req->all();
-        //return $req->url();
-        //return $req->ip();
+        return redirect('formulario')->with('enviado','Se inicio sesion');
 
     }
 
